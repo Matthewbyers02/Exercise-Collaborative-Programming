@@ -31,7 +31,9 @@ def sit2(self):
     act2 = input("""You're super thirsty and come across a murky watering whole where 
                  an agressive hippo is known to rest. \nDo you drink from it? (y/n)""")
     if act2 == "y":
-        (self.health + 3 if self.speed > 6 
+        self.health + 3
+    else:
+        (self.health - 2 if self.speed > 6 
          else self.health - 5 & print("You may not get to another watering hole for a while")) 
         #satisfied the condional expr req here^
 
