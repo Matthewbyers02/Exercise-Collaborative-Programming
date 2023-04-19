@@ -31,6 +31,7 @@ def sit2(self):
     act2 = input("""You're super thirsty and come across a murky watering whole where 
                  an agressive hippo is known to rest. \nDo you drink from it? (y/n)""")
     if act2 == "y":
+        print("Drink up! Looks like the hippo wasn't home.")
         self.health + 3
     else:
         (self.health - 2 if self.speed > 6 
