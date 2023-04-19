@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 set ops:
 	union - combines from both sets
 		set1.union(set2)  or   set1 | set2    
@@ -56,3 +57,7 @@ sorting:
 	
 
 		
+=======
+test .txt file being added and pushed
+Joseph Rohan Kettish was here
+>>>>>>> daab83e9d429f9dd9d21e90aaf35d9af275f33dc
