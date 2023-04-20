@@ -1,2 +1,63 @@
+<<<<<<< HEAD
+set ops:
+	union - combines from both sets
+		set1.union(set2)  or   set1 | set2    
+	intersection - only what overlaps betwen sets
+		set1.intersection(set2)   or    set1 & set2
+	difference - that things that are in the first set that arent in the second
+		set1.difference(set2)  or set1 - set2
+	symmetric - everything that doesnt overlap between the two
+		set1.symmetric_differnece(set2)     or set1 ^ set2
+
+Subsets and Supersets:
+	supssetood - set1.issubset(set2) or s1 <= s2
+		vice versa for superset (.issuperset()) or >=
+		this means they can also be equal
+	proper subsethood s1 < s2 or supersethood s1 > s2
+	inspace operations are the same with _update after the thing
+	
+
+dijointness and quality:
+	disjoint: two sets are completelty opposite
+	s1.isdisjoint(s2)
+	quality: is the same excactly
+	s1 == s2
+	
+len(set) - tells size
+
+ITEM in SET - shows if item is in set or not
+ITEM not in SET  
+
+SET.remove(ITEM) - removes items
+SET.discard(ITEM)
+SET.pop(ITEM) 
+
+pets = forzensets({INSERT SET}) - CREATES FROZEN SET
+operations can be used btween the sets 
+
+---------------------------------------------------------------------
+
+comaring things:
+	numerbers are as you thing
+	Tru > False
+	in a ordered sequences, evals the first item compared to the same item (one position at a time) in the other list, then second if first matches - the longer list in all matching is greater than (same for strings, and tuples
+	strings are compared based on unicode
+		duck < fish
+		Horse < bird - upper case lettter are less in unicode
+		moose < a(w accent)lg bc accented character are more
+		english < other languages
+
+sorting:
+	COLLECTION.sort() - list in place - setting equal to a value returns none
+	sorted(COLLECTION) - sorts colelction and returns new list - can do dict
+	sorted(COLLECTION, reverse=TRUE) - sorts in descending order
+	COLLECTION.sort(key=len) - sorts collection based of len based on defined criteria
+	variable = sort(DICT, key=DICT.get) - sorts the objects based on values
+	
+	
+
+		
+=======
 test .txt file being added and pushed
 Joseph Rohan Kettish was here
+>>>>>>> daab83e9d429f9dd9d21e90aaf35d9af275f33dc
